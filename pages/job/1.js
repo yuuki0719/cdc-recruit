@@ -63,7 +63,7 @@ export default function Interview(props) {
             {job[0].p[5]}
           </p>
         </div>
-        <div>
+        
           <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
           <Splide
         className=""
@@ -135,8 +135,8 @@ export default function Interview(props) {
     </div>
 </div>
 </div>
-
-
+ 
+          <div>
           <h1 className="text-[30px] text-center my-[60px] font-bold">
             {job[0].h1[4]}
           </h1>

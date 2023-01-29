@@ -15,11 +15,10 @@ export default function Home(props) {
       <Header />
       <div>
       <div className="w-[100%] h-auto relative ">
-        <Image src={TOP[1].mein} width={1170} height={780} alt={TOP[1].alt} className=" w-[100%] h-auto " />
+        <Image src={TOP[1].mein} width={2000} height={1333} alt={TOP[1].alt} className=" w-[100%] h-auto " />
         <div className=" skew-y-[-6deg] origin-top-left">
           <div className="w-[100%]  py-[20px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] absolute   translate-x-[-50%] translate-y-[-50%] animate-slide-in-blurred-left">貫き続ける覚悟はあるか</div>
         </div>
-        
       </div>
         <p className=" mx-[10%] mt-[120px] mb-[60px] text-base font-medium">{TOP[1].P}</p>
       </div>
@@ -36,7 +35,7 @@ export default function Home(props) {
               alt={TOP[2].alt[0]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/1">
+          <Link class="w-full md:w-1/2" href="/job/2">
             <Image
               src={TOP[2].job2}
               width={1170}
@@ -44,7 +43,7 @@ export default function Home(props) {
               alt={TOP[2].alt[1]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/1">
+          <Link class="w-full md:w-1/2" href="/job/3">
             <Image
               src={TOP[2].job3}
               width={1170}
@@ -52,7 +51,7 @@ export default function Home(props) {
               alt={TOP[2].alt[2]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/1">
+          <Link class="w-full md:w-1/2" href="/job/4">
             <Image
               src={TOP[2].job4}
               width={1170}
@@ -67,10 +66,10 @@ export default function Home(props) {
           {TOP[3].h1}
         </h1>
         <Image
-          className="lg:mx-[10%]"
+          className=""
           src={TOP[3].image}
-          width={1170}
-          height={780}
+          width={2000}
+          height={1333}
           alt={TOP[3].alt}
         />
         <h2 className="text-[20px] text-center text-black font-bold md:text-[24px] ">
@@ -79,12 +78,14 @@ export default function Home(props) {
         <Splide
         className=""
         options={{
+          autoplay: true, // 自動再生を有効
+          interval: 3000,
           rewind: true,
         }}
       >
         <SplideSlide className="">
         <Link
-            href="/interview"
+            href="/interview/1"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -114,7 +115,7 @@ export default function Home(props) {
         </SplideSlide>
         <SplideSlide className="">
         <Link
-            href="/interview"
+            href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -144,7 +145,7 @@ export default function Home(props) {
         </SplideSlide>
         <SplideSlide>
         <Link
-            href="/interview"
+            href="/interview/3"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -174,7 +175,7 @@ export default function Home(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/4"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -202,7 +203,7 @@ export default function Home(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/5"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -232,7 +233,7 @@ export default function Home(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/6"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -268,10 +269,10 @@ export default function Home(props) {
 
       <div>
         <Image
-          className="lg:mx-[10%]"
+          className=""
           src={TOP[4].image}
-          width={1170}
-          height={780}
+          width={2000}
+          height={1333}
           alt={TOP[4].alt}
         />
         <h2 className="text-[20px] mb-[60px] text-center text-black font-bold  md:text-[24px]">

@@ -17,9 +17,9 @@ export default function Interview(props) {
       </div>
       <Image
         className="w-[100%]"
-        src={interview[0].mein}
-        width={1170}
-        height={780}
+        src={interview[0].main}
+        width={1560}
+        height={1040}
         alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
@@ -30,8 +30,8 @@ export default function Interview(props) {
       <Image
         className="w-[100%]"
         src={interview[0].images[0]}
-        width={1170}
-        height={780}
+        width={5568}
+        height={3712}
         alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
@@ -49,8 +49,8 @@ export default function Interview(props) {
       <Image
         className="w-[100%]"
         src={interview[0].images[1]}
-        width={1170}
-        height={780}
+        width={5568}
+        height={3712}
         alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
@@ -74,7 +74,7 @@ export default function Interview(props) {
       >
         <SplideSlide className="">
         <Link
-            href="/interview"
+            href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -104,7 +104,7 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
         <Link
-            href="/interview"
+            href="/interview/3"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -134,7 +134,7 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/4"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -162,7 +162,7 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/5"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -192,7 +192,7 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview"
+            href="/interview/6"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">

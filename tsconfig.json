@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/interview/[id].js"  ],
+, "pages/interview/[id].js", "components/slider.js"  ],
   "exclude": [
     "node_modules"
   ]

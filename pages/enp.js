@@ -2,19 +2,21 @@ import fsPromises from "fs/promises";
 import path from "path";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Slider from "../components/slider";
 
 export default function Enp(props) {
   const TOP = props.TOP;
   const enp = props.enp;
   return (
     <div class="">
-      <Image
-        className="w-[100%] h-auto"
-        src={enp[0].main[0]}
-        alt={enp[1].names[0]}
-        width="1170"
-        height="780"
-      />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Slider />
+      </div>
       <div>
         <h1 className=" text-center text-[30px] md:text-[32px] font-bold my-[60px]">
           {enp[0].h1}
@@ -32,7 +34,7 @@ export default function Enp(props) {
 
       <ul>
         <li class="my-[60px] lg:ml-[5%]">
-          <Link href="/interview" class="flex  items-center ">
+          <Link href="/interview/1" class="flex  items-center ">
             <div class="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
                 className=""
@@ -62,7 +64,7 @@ export default function Enp(props) {
         <li class="mb-[60px] lg:mx-[5%]">
           <Link
             class="flex items-center justify-between"
-            href="/about"
+            href="/interview/2"
             title=""
           >
             <div class="ml-[21px] mr-[25px] items-center">
@@ -92,7 +94,7 @@ export default function Enp(props) {
         </li>
 
         <li class="mb-[60px] lg:ml-[5%]">
-          <a class="flex items-center" href="" title="">
+          <Link class="flex items-center" href="/interview/3">
             <div class="ml-[21px]  mr-[25px] max-w-[50%] ">
               <Image
                 className=""
@@ -116,11 +118,11 @@ export default function Enp(props) {
                 {enp[1].p[11]}
               </h3>
             </div>
-          </a>
+          </Link>
         </li>
 
         <li class="mb-[60px] lg:mx-[5%]">
-          <a class="flex items-center justify-between" href="" title="">
+          <Link class="flex items-center justify-between" href="/interview/4" title="">
             <div class="ml-[21px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
@@ -142,11 +144,11 @@ export default function Enp(props) {
                 height="667"
               />
             </div>
-          </a>
+          </Link>
         </li>
 
         <li class="mb-[60px] lg:ml-[5%]">
-          <a class="flex items-center" href="" title="">
+          <Link class="flex items-center" href="/interview/5">
             <div class="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
                 className=""
@@ -170,11 +172,11 @@ export default function Enp(props) {
                 {enp[1].p[18]}
               </h3>
             </div>
-          </a>
+          </Link>
         </li>
 
         <li class="mb-[60px] lg:mx-[5%]">
-          <a class="flex items-center justify-between" href="" title="">
+          <Link class="flex items-center justify-between" href="/interview/6">
             <div class="ml-[21px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[5]}
@@ -196,9 +198,12 @@ export default function Enp(props) {
                 height="667"
               />
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
+    <div>
+<Footer />
+    </div>
     </div>
   );
 }

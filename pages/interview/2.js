@@ -1,15 +1,18 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
 import Image from 'next/image'
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 export default function Interview(props) {
 
 const interview = props.interview;
 return (
 <body>
+    <Header />
     <Image src={interview[1].mein} width={1170} height={780} alt={interview[1].alt} />
     <div className='px-12 space-y-10 my-[60px] '>
-        <p className=''>{interview[1].p_1[0]}</p>
+        <p className=''>{interview[1].p_1}</p>
     </div>
     <Image src={interview[1].images[0]} width={1170} height={780} alt={interview[1].alt} />
     <h2>{interview[1].h2[0]}</h2>
@@ -39,6 +42,7 @@ return (
         <p>{interview[1].p_5[1]}</p>
     </div>
     <h1>{interview[1].footer_h1}</h1>
+    <Footer />
 </body>
         )
 }

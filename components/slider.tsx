@@ -14,32 +14,32 @@ export default function Slider(){
         }}
       >
         <SplideSlide>
-        <Link href="/interview/1">
+        <Link href="/interview">
           <Image className="slide-img block  object-cover w-[100%] " src="/image/interview_mv_f.jpg" alt="藤井 歩" width="1170" height="780"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
-        <Link href="/interview/2">
+        <Link href="/interview">
         <Image className="slide-img block  object-cover w-[100%] " src="/image/interview_mv_t.jpg" alt="高野 祐実" width="1170" height="780"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
-        <Link href="/interview/3">
+        <Link href="/interview">
         <Image className="slide-img block  object-cover w-[100%] " src="/image/interview_mv_y.jpg" alt="山本 航大" width="1170" height="780"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
-        <Link href="/interview/4">
+        <Link href="/interview">
         <Image className="slide-img block object-cover w-[100%] " src="/image/interview_mv_o.jpg" alt="小田 真大" width="1170" height="780"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
-        <Link href="/interview/5">
+        <Link href="/interview">
         <Image className="slide-img block object-cover w-[100%] " src="/image/interview_mv_m.jpg" alt="三井倉 理絵" width="1170" height="780"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
-        <Link href="/interview/6">
+        <Link href="/interview">
         <Image className="slide-img block object-cover w-[100%] " src="/image/interview_mv_h.jpg" alt="平山 陽" width="1170" height="780"/>
         </Link>
         </SplideSlide>

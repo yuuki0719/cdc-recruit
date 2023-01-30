@@ -10,10 +10,11 @@ export default function Enp(props) {
   const TOP = props.TOP;
   const enp = props.enp;
   return (
-    <div class="">
-      <div>
-        <Header />
-      </div>
+    <body>
+      <Head>
+        <title>社員紹介|CDC新卒採用</title>
+      </Head>
+      <Header />
       <div>
         <Slider />
       </div>
@@ -122,7 +123,7 @@ export default function Enp(props) {
         </li>
 
         <li class="mb-[60px] lg:mx-[5%]">
-          <Link class="flex items-center justify-between" href="/interview/4" title="">
+          <Link class="flex items-center justify-between" href="/interview/4">
             <div class="ml-[21px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
@@ -201,10 +202,10 @@ export default function Enp(props) {
           </Link>
         </li>
       </ul>
-    <div>
-<Footer />
-    </div>
-    </div>
+      <div>
+        <Footer />
+      </div>
+    </body>
   );
 }
 

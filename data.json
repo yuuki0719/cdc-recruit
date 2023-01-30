@@ -120,9 +120,9 @@
     {
       "id": 9,
       "name": "藤井歩",
-      "mein": "/image/interview_mv_f.jpg",
+      "main": "/image/interview_mv_f.jpg",
       "images": ["/image/fujii_1.jpg", "/image/fujii_2.jpg"],
-      "alt": "藤井　歩",
+      "alt": "藤井 歩",
       "h2": [
         "‟関わった相手にどういう気持ちになってほしいのか”自分に問い続けていること。",
         "クライアントのために、自分がなんとかしたい！熱き使命感に燃えた新人時代。",
@@ -197,8 +197,8 @@
     {
       "id": 11,
       "name": "山本 航大",
-      "main": "pass",
-      "images": ["pass1", "pass2"],
+      "main": "/image/interview_mv_y.jpg",
+      "images": ["/image/yamamoto_1.jpg", "/image/yamamoto_2.jpg"],
       "alt": "山本 航大",
       "h2": [
         "広告の制作や後輩の育成など様々な業務をこなす",
@@ -240,8 +240,8 @@
     {
       "id": 12,
       "name": "小田 真大",
-      "main": "pass",
-      "images": ["pass1", "pass2"],
+      "main": "/image/interview_mv_o.jpg",
+      "images": ["/image/oda_1.jpg", "/image/oda_2.jpg"],
       "alt": "小田 真大",
       "h2": [
         "マーケティング戦略も含めてクライアントをサポートする",
@@ -284,8 +284,8 @@
     {
       "id": 13,
       "name": "三井倉 理絵",
-      "main": "pass",
-      "images": ["pass1", "pass2"],
+      "main": "/image/interview_mv_m.jpg",
+      "images": ["/image/mituikura_1.jpg", "/image/mituikura_2.jpg"],
       "alt": "三井倉 理絵",
       "h2": [
         "@typeなどの中途採用求人広告の法人営業を担当",
@@ -328,7 +328,7 @@
       "id": 14,
       "name": "平山 陽",
       "main": "/image/interview_mv_h.jpg",
-      "images": ["pass1", "pass2"],
+      "images": ["/image/hirayama_1.jpg", "/image/hirayama_2.jpg"],
       "alt": "平山 陽",
       "h2": [
         "もっと自分の世界を広げたい。飛び込んだCDCの現場で見つけた自分の核心。",

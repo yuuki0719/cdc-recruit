@@ -123,7 +123,11 @@ export default function Enp(props) {
         </li>
 
         <li class="mb-[60px] lg:mx-[5%]">
+<<<<<<< HEAD
           <Link class="flex items-center justify-between" href="/interview/4">
+=======
+          <Link class="flex items-center justify-between" href="/interview/4" >
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             <div class="ml-[21px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}

@@ -77,7 +77,11 @@ export default function Interview(props) {
         }}
       >
         <SplideSlide className="">
+<<<<<<< HEAD
           <Link
+=======
+        <Link
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
           >
@@ -107,7 +111,11 @@ export default function Interview(props) {
           </Link>
         </SplideSlide>
         <SplideSlide>
+<<<<<<< HEAD
           <Link
+=======
+        <Link
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             href="/interview/3"
             className="flex  items-center  py-[30px] justify-center"
           >

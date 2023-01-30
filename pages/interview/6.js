@@ -6,16 +6,22 @@ import Footer from "../../components/footer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import Link from "next/link";
+<<<<<<< HEAD
 import Head from "next/head";
+=======
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
 
 export default function Interview(props) {
   const interview = props.interview;
   const enp = props.enp;
   return (
     <body>
+<<<<<<< HEAD
       <Head>
         <title>インタビュー|CDC新卒採用</title>
       </Head>
+=======
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
       <div>
         <Header />
       </div>
@@ -76,9 +82,13 @@ export default function Interview(props) {
         <p>{interview[5].p_5[1]}</p>
         <p>{interview[5].p_5[2]}</p>
       </div>
+<<<<<<< HEAD
       <h1 className="text-[30px] font-bold text-center my-[60px]">
         {interview[0].footer_h1}
       </h1>
+=======
+      <h1 className="text-[30px] font-bold text-center my-[60px]">{interview[0].footer_h1}</h1>
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
       <Splide
         className=""
         options={{
@@ -86,7 +96,11 @@ export default function Interview(props) {
         }}
       >
         <SplideSlide className="">
+<<<<<<< HEAD
           <Link
+=======
+        <Link
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             href="/interview/1"
             className="flex  items-center  py-[30px] justify-center"
           >
@@ -101,10 +115,17 @@ export default function Interview(props) {
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+<<<<<<< HEAD
                 {enp[1].names[0]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[0]}
+=======
+              {enp[1].names[0]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              {enp[1].p[0]}
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
                 <br />
                 {enp[1].p[1]}
                 <br />
@@ -116,7 +137,11 @@ export default function Interview(props) {
           </Link>
         </SplideSlide>
         <SplideSlide className="">
+<<<<<<< HEAD
           <Link
+=======
+        <Link
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
           >
@@ -131,10 +156,17 @@ export default function Interview(props) {
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+<<<<<<< HEAD
                 {enp[1].names[1]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[4]}
+=======
+              {enp[1].names[1]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              {enp[1].p[4]}
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
                 <br />
                 {enp[1].p[5]}
                 <br />
@@ -146,7 +178,11 @@ export default function Interview(props) {
           </Link>
         </SplideSlide>
         <SplideSlide>
+<<<<<<< HEAD
           <Link
+=======
+        <Link
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
             href="/interview/3"
             className="flex  items-center  py-[30px] justify-center"
           >
@@ -161,10 +197,17 @@ export default function Interview(props) {
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+<<<<<<< HEAD
                 {enp[1].names[2]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[8]}
+=======
+              {enp[1].names[2]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              {enp[1].p[8]}
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
                 <br />
                 {enp[1].p[9]}
                 <br />
@@ -191,10 +234,17 @@ export default function Interview(props) {
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+<<<<<<< HEAD
                 {enp[1].names[3]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[12]}
+=======
+              {enp[1].names[3]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              {enp[1].p[12]}
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
                 <br />
                 {enp[1].p[13]}
                 <br />
@@ -219,10 +269,17 @@ export default function Interview(props) {
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+<<<<<<< HEAD
                 {enp[1].names[4]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[15]}
+=======
+              {enp[1].names[4]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              {enp[1].p[15]}
+>>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
                 <br />
                 {enp[1].p[16]}
                 <br />

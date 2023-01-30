@@ -59,13 +59,8 @@ export default function Interview(props) {
             {job[0].p[5]}
           </p>
         </div>
-<<<<<<< HEAD
 
         <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
-=======
-        
-          <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
->>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
           <Splide
             className=""
             options={{
@@ -119,7 +114,6 @@ export default function Interview(props) {
             </SplideSlide>
           </Splide>
         </div>
-<<<<<<< HEAD
 
         <div className="">
           <button
@@ -151,13 +145,6 @@ export default function Interview(props) {
         </div>
 
         <div>
-=======
-    </div>
-</div>
-</div>
- 
-          <div>
->>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
           <h1 className="text-[30px] text-center my-[60px] font-bold">
             {job[0].h1[4]}
           </h1>

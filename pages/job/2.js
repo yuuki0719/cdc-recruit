@@ -6,12 +6,8 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
-<<<<<<< HEAD
 import "flowbite";
 import Head from "next/head";
-=======
-import 'flowbite';
->>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
 
 export default function Interview(props) {
   const job = props.job;
@@ -50,7 +46,6 @@ export default function Interview(props) {
             {job[1].p[2]}
           </p>
         </div>
-<<<<<<< HEAD
 
         <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
           <Splide
@@ -136,81 +131,6 @@ export default function Interview(props) {
           </div>
         </div>
         <div>
-=======
-        
-                    <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
-          <Splide
-        className=""
-        options={{
-          rewind: true,
-        }}
-      >
-        <SplideSlide className="">
-        <Image
-                className=""
-                src="/image/schedule_1.png"
-                alt="スケジュール"
-                width="1560"
-                height="1648"
-              />
-        </SplideSlide>
-        <SplideSlide>
-        <Image
-                className=""
-                src="/image/schedule_2.png"
-                alt="スケジュール"
-                width="1560"
-                height="1648"
-              />
-        </SplideSlide>
-        <SplideSlide>
-        <Image
-                className=""
-                src="/image/schedule_3.png"
-                alt="スケジュール"
-                width="1560"
-                height="1648"
-              />
-        </SplideSlide>
-        <SplideSlide>
-        <Image
-                className=""
-                src="/image/schedule_4.png"
-                alt="スケジュール"
-                width="1560"
-                height="1648"
-              />
-        </SplideSlide>
-        <SplideSlide>
-        <Image
-                className=""
-                src="/image/schedule_5.png"
-                alt="スケジュール"
-                width="1560"
-                height="1648"
-              />
-        </SplideSlide>
-      </Splide>
-          </div>
-
-<div className="">
-  <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block mx-auto my-[60px] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
-スケジュール全体を見る
-</button>
-
-
-<div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
-    <div class="relative w-full h-full max-w-2xl md:h-auto">
-
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 "> 
-                <Image src="/image/job1_s.png" width={1560} height={2036} className=" w-[100%] h-auto " />
-
-        </div>
-    </div>
-</div>
-</div>
-<div>
->>>>>>> ff628ef57ec185a711ddcd11e63b4c8e28976a3b
           <h1 className="text-[30px] text-center my-[60px] font-bold">
             {job[1].h1[3]}
           </h1>

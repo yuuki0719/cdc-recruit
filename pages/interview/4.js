@@ -6,16 +6,13 @@ import Footer from "../../components/footer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import Link from "next/link";
-import Head from "next/head";
 
 export default function Interview(props) {
   const enp = props.enp;
   const interview = props.interview;
   return (
-    <body>
-      <Head>
+    <>
         <title>インタビュー|CDC新卒採用</title>
-      </Head>
       <Header />
       <Image
         src={interview[3].main}
@@ -242,7 +239,7 @@ export default function Interview(props) {
         </SplideSlide>
       </Splide>
       <Footer />
-    </body>
+    </>
   );
 }
 

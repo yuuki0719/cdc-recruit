@@ -63,12 +63,6 @@ export default function Header() {
                     TOP
                   </Link>
                 </li>
-                {/* <li className="">
-                  <Link href="/job">事業内容</Link>
-                </li>
-                <li className="">
-                  <Link href="/about">CDCの特徴</Link>
-                </li> */}
                 <li className="">
                   <Link href="/enp" className="font-bold">
                     社員紹介

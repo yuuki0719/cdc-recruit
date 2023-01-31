@@ -5,16 +5,13 @@ import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Slider from "../components/slider";
-import Head from "next/head";
 
 export default function Enp(props) {
   const TOP = props.TOP;
   const enp = props.enp;
   return (
-    <body>
-      <Head>
+    <>
         <title>社員紹介|CDC新卒採用</title>
-      </Head>
       <Header />
       <div>
         <Slider />
@@ -206,7 +203,7 @@ export default function Enp(props) {
       <div>
         <Footer />
       </div>
-    </body>
+    </>
   );
 }
 

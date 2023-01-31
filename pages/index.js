@@ -6,17 +6,13 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
-import Head from "next/head";
 
 export default function Home(props) {
   const TOP = props.TOP;
   const enp = props.enp;
   return (
-    <body>
-      <Head>
+    <>
         <title>TOP|CDC新卒採用</title>
-      </Head>
-      <Header />
       <div>
         <div className="w-[100%] h-auto relative ">
           <Image
@@ -27,12 +23,12 @@ export default function Home(props) {
             className=" w-[100%] h-auto "
           />
           <div className=" skew-y-[-6deg] origin-top-left">
-            <p className="w-[100%]  py-[20px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] absolute   translate-x-[-50%] translate-y-[-50%] animate-slide-in-blurred-left">
+            <p className="w-[100%]  py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] absolute   translate-x-[-50%] translate-y-[-30%] animate-slide-in-blurred-left">
               貫き続ける覚悟はあるか
             </p>
           </div>
         </div>
-        <p className=" mx-[10%] mt-[120px] mb-[60px] text-base font-medium">
+        <p className=" mx-[10%] mt-[120px] lg:mt-[160px] mb-[60px] text-base font-medium">
           {TOP[1].P}
         </p>
       </div>
@@ -314,7 +310,7 @@ export default function Home(props) {
         </section>
       </section>
       <Footer />
-    </body>
+    </>
   );
 }
 

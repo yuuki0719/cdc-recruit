@@ -7,16 +7,14 @@ import Footer from "../../components/footer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import "flowbite";
-import Head from "next/head";
 
 export default function Interview(props) {
   const job = props.job;
   const TOP = props.TOP;
   return (
-    <body>
-      <Head>
+    <>
         <title>新卒採用支援事業|CDC新卒採用</title>
-      </Head>
+
       <Header />
       <div>
         <Image
@@ -174,7 +172,7 @@ export default function Interview(props) {
       <div>
         <Footer />
       </div>
-    </body>
+    </>
   );
 }
 

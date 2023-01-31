@@ -11,10 +11,8 @@ export default function Interview(props) {
   const enp = props.enp;
   const interview = props.interview;
   return (
-    <body>
-      <Head>
+    <>
         <title>インタビュー|CDC新卒採用</title>
-      </Head>
       <Header />
       <Image
         src={interview[2].main}
@@ -239,7 +237,7 @@ export default function Interview(props) {
         </SplideSlide>
       </Splide>
       <Footer />
-    </body>
+    </>
   );
 }
 

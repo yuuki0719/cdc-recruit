@@ -6,7 +6,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Slider from "../components/slider";
 
-export default function Enp(props) {
+export default function Employee(props) {
   const TOP = props.TOP;
   const enp = props.enp;
   return (
@@ -43,11 +43,14 @@ export default function Enp(props) {
                 height="667"
               />
             </div>
-            <div class="items-center lg:ml-9">
+            <div class="items-center  lg:ml-[100px]">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[0]}
               </h2>
-              <h3 class="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[0]}
+                  </h3>
+              <p class="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[0]}
                 <br />
                 {enp[1].p[1]}
@@ -55,7 +58,7 @@ export default function Enp(props) {
                 {enp[1].p[2]}
                 <br />
                 {enp[1].p[3]}
-              </h3>
+              </p>
             </div>
           </Link>
         </li>
@@ -66,11 +69,14 @@ export default function Enp(props) {
             href="/interview/2"
             title=""
           >
-            <div class="ml-[21px] mr-[25px] items-center">
+            <div class="ml-[21px] md:ml-[50px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[1]}
               </h2>
-              <h3 class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[1]}
+                  </h3>
+              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[4]}
                 <br />
                 {enp[1].p[5]}
@@ -78,7 +84,7 @@ export default function Enp(props) {
                 {enp[1].p[6]}
                 <br />
                 {enp[1].p[7]}
-              </h3>
+              </p>
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image
@@ -103,11 +109,14 @@ export default function Enp(props) {
                 height="667"
               />
             </div>
-            <div class="items-center lg:ml-9">
+            <div class="items-center lg:ml-[100px]">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[2]}
               </h2>
-              <h3 class="text-[16px] font-normal min-w-[176px] md:text-2xl mr-3">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[2]}
+                  </h3>
+              <p class="text-[16px] font-normal min-w-[176px] md:text-2xl mr-3">
                 {enp[1].p[8]}
                 <br />
                 {enp[1].p[9]}
@@ -115,7 +124,7 @@ export default function Enp(props) {
                 {enp[1].p[10]}
                 <br />
                 {enp[1].p[11]}
-              </h3>
+              </p>
             </div>
           </Link>
         </li>
@@ -126,13 +135,16 @@ export default function Enp(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
               </h2>
-              <h3 class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[3]}
+                  </h3>
+              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[12]}
                 <br />
                 {enp[1].p[13]}
                 <br />
                 {enp[1].p[14]}
-              </h3>
+              </p>
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image
@@ -157,11 +169,14 @@ export default function Enp(props) {
                 height="667"
               />
             </div>
-            <div class="items-center lg:ml-9 ">
+            <div class="items-center lg:ml-[100px] ">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[4]}
               </h2>
-              <h3 class="text-[16px] font-normal min-w-[176px] md:text-2xl  mr-3">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[4]}
+                  </h3>
+              <p class="text-[16px] font-normal min-w-[176px] md:text-2xl  mr-3">
                 {enp[1].p[15]}
                 <br />
                 {enp[1].p[16]}
@@ -169,7 +184,7 @@ export default function Enp(props) {
                 {enp[1].p[17]}
                 <br />
                 {enp[1].p[18]}
-              </h3>
+              </p>
             </div>
           </Link>
         </li>
@@ -180,13 +195,16 @@ export default function Enp(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[5]}
               </h2>
-              <h3 class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+                    {enp[1].since[5]}
+                  </h3>
+              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[19]}
                 <br />
                 {enp[1].p[20]}
                 <br />
                 {enp[1].p[21]}
-              </h3>
+              </p>
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image

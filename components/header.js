@@ -64,7 +64,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="">
-                  <Link href="/enp" className="font-bold">
+                  <Link href="/employee" className="font-bold">
                     社員紹介
                   </Link>
                 </li>

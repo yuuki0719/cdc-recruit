@@ -274,7 +274,7 @@ export default function Home(props) {
           </Splide>
           <Link
             className="flex justify-end mr-[5%] items-center my-[30px]"
-            href="/enp"
+            href="/employee"
           >
             <Image
               className="mr-3"

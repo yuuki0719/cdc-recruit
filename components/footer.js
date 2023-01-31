@@ -24,7 +24,7 @@ export default function Footer() {
             <p>TOP</p>
           </Link>
           <Link
-            href="/enp"
+            href="/employee"
             className="text-[14px] text-black my-[22px] pl-[13px]"
           >
             <p>社員紹介/インタビュー</p>

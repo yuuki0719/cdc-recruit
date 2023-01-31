@@ -46,14 +46,12 @@ export default function Interview(props) {
         </div>
         <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
           <Splide
-            className=""
             options={{
               rewind: true,
             }}
           >
-            <SplideSlide className="">
+            <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_1.png"
                 alt="スケジュール"
                 width="1560"
@@ -62,7 +60,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_2.png"
                 alt="スケジュール"
                 width="1560"
@@ -71,7 +68,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_3.png"
                 alt="スケジュール"
                 width="1560"
@@ -80,7 +76,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_4.png"
                 alt="スケジュール"
                 width="1560"
@@ -89,7 +84,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_5.png"
                 alt="スケジュール"
                 width="1560"
@@ -99,7 +93,7 @@ export default function Interview(props) {
           </Splide>
         </div>
 
-        <div className="">
+        <div>
           <button
             data-modal-target="defaultModal"
             data-modal-toggle="defaultModal"
@@ -122,6 +116,7 @@ export default function Interview(props) {
                   width={1560}
                   height={2036}
                   className=" w-[100%] h-auto "
+                  alt="スケジュール"
                 />
               </div>
             </div>

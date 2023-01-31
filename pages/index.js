@@ -29,7 +29,7 @@ export default function Home(props) {
             </p>
           </div>
         </div>
-        <p className=" mx-[10%] mt-[120px]  mb-[60px] text-base font-medium">
+        <p className=" mx-[10%] mt-[60px]  mb-[60px] text-base font-medium">
           {TOP[1].P}
         </p>
       </div>
@@ -77,7 +77,6 @@ export default function Home(props) {
           {TOP[3].h1}
         </h1>
         <Image
-          className=""
           src={TOP[3].image}
           width={2000}
           height={1333}
@@ -88,14 +87,13 @@ export default function Home(props) {
             {TOP[3].h2}
           </h2>
           <Splide
-            className=""
             options={{
               autoplay: true, // 自動再生を有効
               interval: 3000,
               rewind: true,
             }}
           >
-            <SplideSlide className="">
+            <SplideSlide>
               <Link
                 href="/interview/1"
                 className="flex  items-center  py-[30px] justify-center"
@@ -125,7 +123,7 @@ export default function Home(props) {
                 </div>
               </Link>
             </SplideSlide>
-            <SplideSlide className="">
+            <SplideSlide>
               <Link
                 href="/interview/2"
                 className="flex  items-center  py-[30px] justify-center"
@@ -281,12 +279,12 @@ export default function Home(props) {
               src={TOP[3].button}
               width={35}
               height={35}
+              alt="ボタン"
             />
-            <p className="text-base">{TOP[3].button_p}</p>
+            <p className="text-base font-bold">{TOP[3].button_p}</p>
           </Link>
         </section>
         <Image
-          className=""
           src={TOP[4].image}
           width={2000}
           height={1333}

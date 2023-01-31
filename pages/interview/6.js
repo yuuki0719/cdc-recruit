@@ -77,12 +77,11 @@ export default function Interview(props) {
         {interview[0].footer_h1}
       </h1>
       <Splide
-        className=""
         options={{
           rewind: true,
         }}
       >
-        <SplideSlide className="">
+        <SplideSlide>
           <Link
             href="/interview/1"
             className="flex  items-center  py-[30px] justify-center"
@@ -112,7 +111,7 @@ export default function Interview(props) {
             </div>
           </Link>
         </SplideSlide>
-        <SplideSlide className="">
+        <SplideSlide>
           <Link
             href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"

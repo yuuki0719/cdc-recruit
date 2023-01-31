@@ -34,7 +34,7 @@ export default function Footer() {
           href="#"
           className="flex justify-end mr-[15px] mt-auto scroll-smooth"
         >
-          <Image src="/image/upbtn.png" width={40} height={40} />
+          <Image src="/image/upbtn.png" width={40} height={40} alt="上に戻る" />
         </Link>
       </div>
       <p className="text-center my-3">© 2022</p>

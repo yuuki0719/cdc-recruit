@@ -36,7 +36,6 @@ export default function Employee(props) {
           <Link href="/interview/1" class="flex  items-center ">
             <div class="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
-                className=""
                 src={enp[1].images[0]}
                 alt={enp[1].names[0]}
                 width="500"
@@ -67,7 +66,6 @@ export default function Employee(props) {
           <Link
             class="flex items-center justify-between"
             href="/interview/2"
-            title=""
           >
             <div class="ml-[21px] md:ml-[50px] mr-[25px] items-center">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
@@ -88,7 +86,6 @@ export default function Employee(props) {
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image
-                className=""
                 src={enp[1].images[1]}
                 alt={enp[1].names[1]}
                 width="500"
@@ -102,7 +99,6 @@ export default function Employee(props) {
           <Link class="flex items-center" href="/interview/3">
             <div class="ml-[21px]  mr-[25px] max-w-[50%] ">
               <Image
-                className=""
                 src={enp[1].images[2]}
                 alt={enp[1].names[2]}
                 width="500"
@@ -148,7 +144,6 @@ export default function Employee(props) {
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image
-                className=""
                 src={enp[1].images[3]}
                 alt={enp[1].names[3]}
                 width="500"
@@ -162,7 +157,6 @@ export default function Employee(props) {
           <Link class="flex items-center" href="/interview/5">
             <div class="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
-                className=""
                 src={enp[1].images[4]}
                 alt={enp[1].names[4]}
                 width="500"
@@ -208,7 +202,6 @@ export default function Employee(props) {
             </div>
             <div class="mr-3 max-w-[50%]">
               <Image
-                className=""
                 src={enp[1].images[5]}
                 alt={enp[1].names[5]}
                 width="500"

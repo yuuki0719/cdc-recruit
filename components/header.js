@@ -11,7 +11,7 @@ export default function Header() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="/">
-                <Image src="/image/logo.png" width={150} height={41} />
+                <Image src="/image/logo.png" width={150} height={41} alt="キャリアデザインセンターのロゴ"/>
               </a>
               <div className="md:hidden">
                 <button
@@ -58,12 +58,12 @@ export default function Header() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="">
+                <li>
                   <Link href="/" className="font-bold">
                     TOP
                   </Link>
                 </li>
-                <li className="">
+                <li>
                   <Link href="/employee" className="font-bold">
                     社員紹介
                   </Link>

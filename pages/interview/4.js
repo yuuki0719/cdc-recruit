@@ -22,7 +22,7 @@ export default function Interview(props) {
         className="w-[100%]"
       />
       <div className="px-12 space-y-10 my-[60px] ">
-        <p className="">{interview[1].p_1}</p>
+        <p>{interview[1].p_1}</p>
       </div>
       <Image
         src={interview[3].images[0]}
@@ -84,7 +84,6 @@ export default function Interview(props) {
         {interview[3].footer_h1}
       </h1>
       <Splide
-        className=""
         options={{
           rewind: true,
         }}

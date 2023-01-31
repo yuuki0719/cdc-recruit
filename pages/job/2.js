@@ -46,14 +46,12 @@ export default function Interview(props) {
 
         <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
           <Splide
-            className=""
             options={{
               rewind: true,
             }}
           >
             <SplideSlide className="">
               <Image
-                className=""
                 src="/image/schedule_1.png"
                 alt="スケジュール"
                 width="1560"
@@ -62,7 +60,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_2.png"
                 alt="スケジュール"
                 width="1560"
@@ -73,14 +70,12 @@ export default function Interview(props) {
               <Image
                 className=""
                 src="/image/schedule_3.png"
-                alt="スケジュール"
                 width="1560"
                 height="1648"
               />
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_4.png"
                 alt="スケジュール"
                 width="1560"
@@ -89,7 +84,6 @@ export default function Interview(props) {
             </SplideSlide>
             <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_5.png"
                 alt="スケジュール"
                 width="1560"

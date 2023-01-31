@@ -35,7 +35,7 @@ export default function Interview(props) {
       />
       <div className="px-12 space-y-10 my-[60px] ">
         <h2>{interview[0].h2[0]}</h2>
-        <p className="">{interview[0].p_2[0]}</p>
+        <p>{interview[0].p_2[0]}</p>
         <p>{interview[0].p_2[1]}</p>
         <p>{interview[0].p_2[2]}</p>
       </div>

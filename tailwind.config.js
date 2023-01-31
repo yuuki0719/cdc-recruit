@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                "slide-in-blurred-left": "slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)   both"
+                "slide-in-blurred-left": "slide-in-blurred-left 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000)   both"
             },
             keyframes: {
                 "slide-in-blurred-left": {

@@ -29,7 +29,7 @@ export default function Home(props) {
             </p>
           </div>
         </div>
-        <p className=" mx-[10%] mt-[120px] lg:mt-[160px] mb-[60px] text-base font-medium">
+        <p className=" mx-[10%] mt-[120px]  mb-[60px] text-base font-medium">
           {TOP[1].P}
         </p>
       </div>

@@ -33,7 +33,7 @@ export default function Employee(props) {
 
       <ul>
         <li className="my-[60px] lg:ml-[5%]">
-          <Link href="/interview/1" class="flex  items-center ">
+          <Link href="/interview/1" className="flex  items-center ">
             <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[0]}

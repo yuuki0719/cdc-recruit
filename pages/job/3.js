@@ -55,14 +55,12 @@ export default function Interview(props) {
 
         <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
           <Splide
-            className=""
             options={{
               rewind: true,
             }}
           >
-            <SplideSlide className="">
+            <SplideSlide>
               <Image
-                className=""
                 src="/image/schedule_1.png"
                 alt="スケジュール"
                 width="1560"
@@ -108,7 +106,7 @@ export default function Interview(props) {
           <button
             data-modal-target="defaultModal"
             data-modal-toggle="defaultModal"
-            class="block mx-auto my-[60px] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="block mx-auto my-[60px] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
           >
             スケジュール全体を見る
@@ -116,30 +114,31 @@ export default function Interview(props) {
 
           <div
             id="defaultModal"
-            tabindex="-1"
+            tabIndex={-1}
             aria-hidden="true"
-            class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+            className="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0  md:h-full"
           >
-            <div class="relative w-full h-full max-w-2xl md:h-auto">
-              <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 ">
+            <div className="relative w-full h-full max-w-2xl md:h-auto">
+              <div className="relative bg-white rounded-lg shadow dark:bg-gray-700 text-center">
                 <Image
                   src="/image/job1_s.png"
                   width={1560}
                   height={2036}
-                  className=" w-[100%] h-auto "
                   alt="スケジュール"
+                  className=" w-[100%] h-auto "
                 />
               </div>
             </div>
           </div>
         </div>
 
+
         <div>
           <h1 className="text-[30px] text-center my-[60px] font-bold">
             {job[2].h2[2]}
           </h1>
-          <div class="flex flex-wrap">
-            <Link href="/job/1" class="w-full md:w-1/3">
+          <div className="flex flex-wrap">
+            <Link href="/job/1" className="w-full md:w-1/3">
               <Image
                 src={TOP[2].job1}
                 width={1170}
@@ -147,7 +146,7 @@ export default function Interview(props) {
                 alt={TOP[2].alt[1]}
               />
             </Link>
-            <Link href="/job/2" class="w-full md:w-1/3">
+            <Link href="/job/2" className="w-full md:w-1/3">
               <Image
                 src={TOP[2].job2}
                 width={1170}
@@ -155,7 +154,7 @@ export default function Interview(props) {
                 alt={TOP[2].alt[2]}
               />
             </Link>
-            <Link href="/job/4" class="w-full md:w-1/3">
+            <Link href="/job/4" className="w-full md:w-1/3">
               <Image
                 src={TOP[2].job4}
                 width={1170}

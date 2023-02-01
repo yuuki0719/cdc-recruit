@@ -23,8 +23,8 @@ export default function Home(props) {
             alt={TOP[1].alt}
             className=" w-[100%] h-auto "
           />
-          <div className=" skew-y-[-6deg] origin-top-left absolute w-[100%]  translate-y-[-100%]">
-            <p className="  py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] animate-slide-in-blurred-left">
+          <div className="skew-y-[-6deg] origin-top-left absolute w-[100%]  translate-y-[-100%]">
+            <p className="py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] animate-slide-in-blurred-left">
               貫き続ける覚悟はあるか
             </p>
           </div>
@@ -34,11 +34,11 @@ export default function Home(props) {
         </p>
       </div>
       <article>
-        <h1 className="text-[30px] text-center font-bold mb-[30px] md:mb-[60px] md:text-[34px] ">
+        <h1 className="text-[30px] text-center font-bold mb-[30px] md:mb-[60px] md:text-[34px]">
           {TOP[2].h1}
         </h1>
-        <div class="flex flex-wrap">
-          <Link class="w-full md:w-1/2" href="/job/1">
+        <div className="flex flex-wrap">
+          <Link className="w-full md:w-1/2" href="/job/1">
             <Image
               src={TOP[2].job1}
               width={1170}
@@ -46,7 +46,7 @@ export default function Home(props) {
               alt={TOP[2].alt[0]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/2">
+          <Link className="w-full md:w-1/2" href="/job/2">
             <Image
               src={TOP[2].job2}
               width={1170}
@@ -54,7 +54,7 @@ export default function Home(props) {
               alt={TOP[2].alt[1]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/3">
+          <Link className="w-full md:w-1/2" href="/job/3">
             <Image
               src={TOP[2].job3}
               width={1170}
@@ -62,7 +62,7 @@ export default function Home(props) {
               alt={TOP[2].alt[2]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/4">
+          <Link className="w-full md:w-1/2" href="/job/4">
             <Image
               src={TOP[2].job4}
               width={1170}
@@ -186,7 +186,7 @@ export default function Home(props) {
             <SplideSlide>
               <Link
                 href="/interview/4"
-                className="flex  items-center  py-[30px] justify-center"
+                className="flex items-center  py-[30px] justify-center"
               >
                 <div className="ml-[21px] mr-[25px] max-w-[50%]">
                   <Image

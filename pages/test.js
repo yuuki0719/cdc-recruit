@@ -177,7 +177,7 @@ export default function Slider() {
     <div class="relative w-full h-full max-w-2xl md:h-auto">
 
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 "> 
-                <Image src="/image/job1_s.png" width={1560} height={2036} className=" w-[100%] h-auto " />
+                <Image src="/image/job1_s.png" alt="スケジュール" width={1560} height={2036} className=" w-[100%] h-auto " />
 
         </div>
     </div>

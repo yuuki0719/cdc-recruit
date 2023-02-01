@@ -20,12 +20,12 @@ export default function Footer() {
               alt="キャリアデザインセンター"
             />
           </Link>
-          <Link href="/" className="text-[14px] text-black my-[22px] pl-[13px]">
+          <Link href="/" className="text-[14px] text-black my-[22px] pl-[13px] font-bold">
             <p>TOP</p>
           </Link>
           <Link
             href="/employee"
-            className="text-[14px] text-black my-[22px] pl-[13px]"
+            className="text-[14px] text-black my-[22px] pl-[13px]  font-bold"
           >
             <p>社員紹介/インタビュー</p>
           </Link>

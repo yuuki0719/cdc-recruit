@@ -32,9 +32,9 @@ export default function Employee(props) {
       </div>
 
       <ul>
-        <li class="my-[60px] lg:ml-[5%]">
+        <li className="my-[60px] lg:ml-[5%]">
           <Link href="/interview/1" class="flex  items-center ">
-            <div class="ml-[21px] mr-[25px] max-w-[50%]">
+            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[0]}
                 alt={enp[1].names[0]}
@@ -42,14 +42,14 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div class="items-center  lg:ml-[100px]">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+            <div className="items-center  lg:ml-[100px] w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[0]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[0]}
                   </h3>
-              <p class="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+              <p className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[0]}
                 <br />
                 {enp[1].p[1]}
@@ -62,19 +62,19 @@ export default function Employee(props) {
           </Link>
         </li>
 
-        <li class="mb-[60px] lg:mx-[5%]">
+        <li className="mb-[60px] lg:mx-[5%]">
           <Link
-            class="flex items-center justify-between"
+            className="flex items-center justify-between"
             href="/interview/2"
           >
-            <div class="ml-[21px] md:ml-[50px] mr-[25px] items-center">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
+            <div className="ml-[21px] md:ml-[50px] mr-[25px] items-center w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[1]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[1]}
                   </h3>
-              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[4]}
                 <br />
                 {enp[1].p[5]}
@@ -84,7 +84,7 @@ export default function Employee(props) {
                 {enp[1].p[7]}
               </p>
             </div>
-            <div class="mr-3 max-w-[50%]">
+            <div className="mr-3 max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[1]}
                 alt={enp[1].names[1]}
@@ -95,9 +95,9 @@ export default function Employee(props) {
           </Link>
         </li>
 
-        <li class="mb-[60px] lg:ml-[5%]">
-          <Link class="flex items-center" href="/interview/3">
-            <div class="ml-[21px]  mr-[25px] max-w-[50%] ">
+        <li className="mb-[60px] lg:ml-[5%]">
+          <Link className="flex items-center" href="/interview/3">
+            <div className="ml-[21px]  mr-[25px] max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[2]}
                 alt={enp[1].names[2]}
@@ -105,14 +105,14 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div class="items-center lg:ml-[100px]">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+            <div className="items-center lg:ml-[100px] w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[2]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[2]}
                   </h3>
-              <p class="text-[16px] font-normal min-w-[176px] md:text-2xl mr-3">
+              <p className="text-[16px] font-normal min-w-[176px] md:text-2xl mr-3">
                 {enp[1].p[8]}
                 <br />
                 {enp[1].p[9]}
@@ -125,16 +125,16 @@ export default function Employee(props) {
           </Link>
         </li>
 
-        <li class="mb-[60px] lg:mx-[5%]">
-          <Link class="flex items-center justify-between" href="/interview/4">
-            <div class="ml-[21px] mr-[25px] items-center">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
+        <li className="mb-[60px] lg:mx-[5%]">
+          <Link className="flex items-center justify-between" href="/interview/4">
+            <div className="ml-[21px] mr-[25px] items-center w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[3]}
                   </h3>
-              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[12]}
                 <br />
                 {enp[1].p[13]}
@@ -142,7 +142,7 @@ export default function Employee(props) {
                 {enp[1].p[14]}
               </p>
             </div>
-            <div class="mr-3 max-w-[50%]">
+            <div className="mr-3 max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[3]}
                 alt={enp[1].names[3]}
@@ -153,9 +153,9 @@ export default function Employee(props) {
           </Link>
         </li>
 
-        <li class="mb-[60px] lg:ml-[5%]">
-          <Link class="flex items-center" href="/interview/5">
-            <div class="ml-[21px] mr-[25px] max-w-[50%]">
+        <li className="mb-[60px] lg:ml-[5%]">
+          <Link className="flex items-center" href="/interview/5">
+            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[4]}
                 alt={enp[1].names[4]}
@@ -163,14 +163,14 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div class="items-center lg:ml-[100px] ">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+            <div className="items-center lg:ml-[100px] w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[4]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[4]}
                   </h3>
-              <p class="text-[16px] font-normal min-w-[176px] md:text-2xl  mr-3">
+              <p className="text-[16px] font-normal min-w-[176px] md:text-2xl  mr-3">
                 {enp[1].p[15]}
                 <br />
                 {enp[1].p[16]}
@@ -183,16 +183,16 @@ export default function Employee(props) {
           </Link>
         </li>
 
-        <li class="mb-[60px] lg:mx-[5%]">
-          <Link class="flex items-center justify-between" href="/interview/6">
-            <div class="ml-[21px] mr-[25px] items-center">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl ">
+        <li className="mb-[60px] lg:mx-[5%]">
+          <Link className="flex items-center justify-between" href="/interview/6">
+            <div className="ml-[21px] mr-[25px] items-center w-1/2">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[5]}
               </h2>
               <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
                     {enp[1].since[5]}
                   </h3>
-              <p class="text-base  font-normal min-w-[176px] md:text-2xl ">
+              <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[19]}
                 <br />
                 {enp[1].p[20]}
@@ -200,7 +200,7 @@ export default function Employee(props) {
                 {enp[1].p[21]}
               </p>
             </div>
-            <div class="mr-3 max-w-[50%]">
+            <div className="mr-3 max-w-[50%] w-1/2">
               <Image
                 src={enp[1].images[5]}
                 alt={enp[1].names[5]}

@@ -115,6 +115,7 @@ export default function Interview(props) {
                   src="/image/job1_s.png"
                   width={1560}
                   height={2036}
+                  alt="スケジュール"
                   className=" w-[100%] h-auto "
                 />
               </div>

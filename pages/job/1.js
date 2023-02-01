@@ -56,8 +56,7 @@ export default function Interview(props) {
             {job[0].p[5]}
           </p>
         </div>
-
-        <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
+          <div className="flex justify-center md:mx-[20%] lg:mx-[30%] ">
           <Splide
             options={{
               rewind: true,
@@ -105,7 +104,6 @@ export default function Interview(props) {
             </SplideSlide>
           </Splide>
         </div>
-
         <div>
           <button
             data-modal-target="defaultModal"

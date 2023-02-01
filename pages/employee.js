@@ -46,9 +46,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[0]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1 ">
                     {enp[1].since[0]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[0]}
+                  </h4>
               <p className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
                 {enp[1].p[0]}
                 <br />
@@ -71,9 +74,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[1]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1">
                     {enp[1].since[1]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[1]}
+                  </h4>
               <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[4]}
                 <br />
@@ -109,9 +115,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[2]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1">
                     {enp[1].since[2]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[2]}
+                  </h4>
               <p className="text-[16px] font-normal min-w-[176px] md:text-2xl mr-3">
                 {enp[1].p[8]}
                 <br />
@@ -131,9 +140,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1 ">
                     {enp[1].since[3]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[3]}
+                  </h4>
               <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[12]}
                 <br />
@@ -167,9 +179,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[4]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1 ">
                     {enp[1].since[4]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[4]}
+                  </h4>
               <p className="text-[16px] font-normal min-w-[176px] md:text-2xl  mr-3">
                 {enp[1].p[15]}
                 <br />
@@ -189,9 +204,12 @@ export default function Employee(props) {
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[5]}
               </h2>
-              <h3 className="text-xl md:text-3xl my-[20px] md:my-[30px]">
+              <h3 className="text-xl md:text-3xl md:mt-1 ">
                     {enp[1].since[5]}
                   </h3>
+                  <h4 className="text-[14px] md:text-[20px] mb-[5px] md:mt-1 md:my-[30px] font-bold">
+                    {enp[1].job[5]}
+                  </h4>
               <p className="text-base  font-normal min-w-[176px] md:text-2xl ">
                 {enp[1].p[19]}
                 <br />

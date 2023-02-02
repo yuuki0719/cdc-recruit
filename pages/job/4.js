@@ -8,13 +8,12 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import "flowbite";
 
-
 export default function Interview(props) {
   const job = props.job;
   const TOP = props.TOP;
   return (
     <>
-        <title>人材派遣事業|CDC新卒採用</title>
+      <title>人材派遣事業|CDC新卒採用</title>
       <Header />
       <div>
         <Image
@@ -93,7 +92,7 @@ export default function Interview(props) {
           </Splide>
         </div>
 
-        <div>
+        {/* <div>
           <button
             data-modal-target="defaultModal"
             data-modal-toggle="defaultModal"
@@ -121,8 +120,7 @@ export default function Interview(props) {
               </div>
             </div>
           </div>
-        </div>
-
+        </div> */}
 
         <div>
           <h1 className="text-[30px] text-center my-[60px] font-bold">

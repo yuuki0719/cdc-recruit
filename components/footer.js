@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <Link
-        href="/"
+        href=""
         className="bg-[#00A0E8] text-[65px] my-[60px] text-white text-center px-[60px] py-[50px] block mx-[5%] md:mx-[20%] md:my[120px] font-bold"
       >
         Entry
@@ -20,7 +20,10 @@ export default function Footer() {
               alt="キャリアデザインセンター"
             />
           </Link>
-          <Link href="/" className="text-[14px] text-black my-[22px] pl-[13px] font-bold">
+          <Link
+            href="/"
+            className="text-[14px] text-black my-[22px] pl-[13px] font-bold"
+          >
             <p>TOP</p>
           </Link>
           <Link

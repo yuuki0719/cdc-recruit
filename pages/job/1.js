@@ -13,7 +13,7 @@ export default function Interview(props) {
   const TOP = props.TOP;
   return (
     <>
-        <title>メディア事業|CDC新卒採用</title>
+      <title>メディア事業|CDC新卒採用</title>
       <Header />
       <div>
         <Image
@@ -56,7 +56,7 @@ export default function Interview(props) {
             {job[0].p[5]}
           </p>
         </div>
-          <div className="flex justify-center md:mx-[20%] lg:mx-[30%] ">
+        <div className="flex justify-center md:mx-[20%] lg:mx-[30%] ">
           <Splide
             options={{
               rewind: true,
@@ -104,7 +104,7 @@ export default function Interview(props) {
             </SplideSlide>
           </Splide>
         </div>
-        <div>
+        {/* <div>
           <button
             data-modal-target="defaultModal"
             data-modal-toggle="defaultModal"
@@ -132,7 +132,7 @@ export default function Interview(props) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div>
           <h1 className="text-[30px] text-center my-[60px] font-bold">

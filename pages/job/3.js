@@ -13,7 +13,7 @@ export default function Interview(props) {
   const TOP = props.TOP;
   return (
     <>
-        <title>新卒採用支援事業|CDC新卒採用</title>
+      <title>新卒採用支援事業|CDC新卒採用</title>
 
       <Header />
       <div>
@@ -102,7 +102,7 @@ export default function Interview(props) {
           </Splide>
         </div>
 
-        <div>
+        {/* <div>
           <button
             data-modal-target="defaultModal"
             data-modal-toggle="defaultModal"
@@ -130,8 +130,7 @@ export default function Interview(props) {
               </div>
             </div>
           </div>
-        </div>
-
+        </div> */}
 
         <div>
           <h1 className="text-[30px] text-center my-[60px] font-bold">

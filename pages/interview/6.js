@@ -10,108 +10,71 @@ import Link from "next/link";
 export default function Interview(props) {
   const interview = props.interview;
   const enp = props.enp;
+  const TOP = props.TOP;
   return (
     <>
-        <title>インタビュー|CDC新卒採用</title>
-      <div>
-        <Header />
-      </div>
+      <title>インタビュー|CDC新卒採用</title>
+      <Header />
       <Image
         className="w-[100%]"
-        src={interview[5].main}
+        src={interview[0].main}
         width={1560}
         height={1040}
-        alt={interview[5].alt}
+        alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
-        <p className="text-xs md:text-base leading-5">{interview[5].p_1[0]}</p>
-        <p className="text-xs md:text-base leading-5">{interview[5].p_1[1]}</p>
-        <p className="text-xs md:text-base leading-5">{interview[5].p_1[2]}</p>
+        <p className="text-xs md:text-base leading-5">{interview[0].p_1[0]}</p>
+        <p className="text-xs md:text-base leading-5">{interview[0].p_1[1]}</p>
+        <p className="text-xs md:text-base leading-5">{interview[0].p_1[2]}</p>
       </div>
       <Image
         className="w-[100%]"
-        src={interview[5].images[0]}
+        src={interview[0].images[0]}
         width={5568}
         height={3712}
-        alt={interview[5].alt}
+        alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
-        <h2>{interview[5].h2[0]}</h2>
-        <p className="">{interview[0].p_2[0]}</p>
-        <p>{interview[5].p_2[0]}</p>
-        <p>{interview[5].p_2[1]}</p>
-        <p>{interview[5].p_2[2]}</p>
-        <p>{interview[5].p_2[3]}</p>
-        <p>{interview[5].p_2[4]}</p>
-        <p>{interview[5].p_2[5]}</p>
-        <p>{interview[5].p_2[6]}</p>
+        <h2>{interview[0].h2[0]}</h2>
+        <p>{interview[0].p_2[0]}</p>
+        <p>{interview[0].p_2[1]}</p>
+        <p>{interview[0].p_2[2]}</p>
       </div>
       <div className="px-12 space-y-10 my-[60px] ">
-        <h2>{interview[5].h2[1]}</h2>
+        <h2>{interview[0].h2[1]}</h2>
         <p className="mt-[30px]">{interview[0].p_3[0]}</p>
-        <p>{interview[5].p_3[0]}</p>
-        <p>{interview[5].p_3[1]}</p>
-        <p>{interview[5].p_3[2]}</p>
-        <p>{interview[5].p_3[3]}</p>
+        <p>{interview[0].p_3[1]}</p>
+        <p>{interview[0].p_3[2]}</p>
       </div>
       <Image
         className="w-[100%]"
-        src={interview[5].images[1]}
+        src={interview[0].images[1]}
         width={5568}
         height={3712}
-        alt={interview[5].alt}
+        alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">
-        <h2>{interview[5].h2[2]}</h2>
-        <p>{interview[5].p_4[0]}</p>
-        <p>{interview[5].p_4[1]}</p>
-        <p>{interview[5].p_4[2]}</p>
+        <h2>{interview[0].h2[2]}</h2>
+        <p>{interview[0].p_4[0]}</p>
+        <p>{interview[0].p_4[1]}</p>
+        <p>{interview[0].p_4[2]}</p>
+        <p>{interview[0].p_4[3]}</p>
       </div>
       <div className="px-12 space-y-10 my-[60px] ">
-        <h2>{interview[5].h2[3]}</h2>
-        <p>{interview[5].p_5[0]}</p>
-        <p>{interview[5].p_5[1]}</p>
-        <p>{interview[5].p_5[2]}</p>
+        <h2>{interview[0].h2[3]}</h2>
+        <p>{interview[0].p_5[0]}</p>
+        <p>{interview[0].p_5[1]}</p>
       </div>
       <h1 className="text-[30px] font-bold text-center my-[60px]">
         {interview[0].footer_h1}
       </h1>
       <Splide
+        className=""
         options={{
           rewind: true,
         }}
       >
-        <SplideSlide>
-          <Link
-            href="/interview/1"
-            className="flex  items-center  py-[30px] justify-center"
-          >
-            <div className="ml-[21px] mr-[25px] max-w-[50%]">
-              <Image
-                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
-                src={enp[1].images[0]}
-                alt={enp[1].names[0]}
-                width="500"
-                height="667"
-              />
-            </div>
-            <div className="items-center lg:ml-9">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
-                {enp[1].names[0]}
-              </h2>
-              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
-                {enp[1].p[0]}
-                <br />
-                {enp[1].p[1]}
-                <br />
-                {enp[1].p[2]}
-                <br />
-                {enp[1].p[3]}
-              </h3>
-            </div>
-          </Link>
-        </SplideSlide>
-        <SplideSlide>
+        <SplideSlide className="">
           <Link
             href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
@@ -229,7 +192,44 @@ export default function Interview(props) {
             </div>
           </Link>
         </SplideSlide>
+        <SplideSlide>
+          <Link
+            href="/interview/6"
+            className="flex  items-center  py-[30px] justify-center"
+          >
+            <div className="ml-[21px] mr-[25px] max-w-[50%]">
+              <Image
+                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
+                src={enp[1].images[5]}
+                alt={enp[1].names[5]}
+                width="500"
+                height="667"
+              />
+            </div>
+            <div className="items-center lg:ml-9">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+                {enp[1].names[5]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+                {enp[1].p[19]}
+                <br />
+                {enp[1].p[20]}
+                <br />
+                {enp[1].p[21]}
+              </h3>
+            </div>
+          </Link>
+        </SplideSlide>
       </Splide>
+      <Link href="/job/4">
+        <Image
+          className="block m-auto md:max-w-[50%] my-[60px] md:my-[120px]"
+          src={TOP[2].job4}
+          width={1170}
+          height={606}
+          alt={TOP[2].alt[3]}
+        />
+      </Link>
       <div>
         <Footer />
       </div>

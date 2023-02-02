@@ -10,80 +10,81 @@ import Link from "next/link";
 export default function Interview(props) {
   const enp = props.enp;
   const interview = props.interview;
+  const TOP = props.TOP;
   return (
     <>
-        <title>インタビュー|CDC新卒採用</title>
+      <title>インタビュー|CDC新卒採用</title>
       <Header />
       <Image
-        src={interview[3].main}
+        src={interview[4].main}
         width={1560}
         height={1040}
-        alt={interview[3].alt}
+        alt={interview[4].alt}
         className="w-[100%]"
       />
       <div className="px-12 space-y-10 my-[60px] ">
         <p>{interview[1].p_1}</p>
       </div>
       <Image
-        src={interview[3].images[0]}
+        src={interview[4].images[0]}
         width={5568}
         height={3712}
-        alt={interview[3].alt}
+        alt={interview[4].alt}
       />
       <div className="mx-[25px] mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
-          {interview[3].h2[0]}
+          {interview[4].h2[0]}
         </h2>
-        <h3 className="md:text-[20px]">{interview[3].h3[0]}</h3>
+        <h3 className="md:text-[20px]">{interview[4].h3[0]}</h3>
       </div>
       <div className="px-12 space-y-10 mb-[60px] ">
-        <p>{interview[3].p_2[0]}</p>
-        <p>{interview[3].p_2[1]}</p>
-        <p>{interview[3].p_2[2]}</p>
+        <p>{interview[4].p_2[0]}</p>
+        <p>{interview[4].p_2[1]}</p>
       </div>
       <div className="mx-[25px] mb-[39px] ">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
-          {interview[3].h2[1]}
+          {interview[4].h2[1]}
         </h2>
-        <h3 className="md:text-[20px]">{interview[3].h3[1]}</h3>
+        <h3 className="md:text-[20px]">{interview[4].h3[1]}</h3>
       </div>
       <div className="px-12 space-y-10 my-[60px] ">
-        <p className="mt-[30px]">{interview[3].p_3[0]}</p>
-        <p>{interview[3].p_3[1]}</p>
-        <p>{interview[3].p_3[2]}</p>
+        <p className="mt-[30px]">{interview[4].p_3[0]}</p>
+        <p>{interview[4].p_3[1]}</p>
+        <p>{interview[4].p_3[2]}</p>
       </div>
       <Image
-        src={interview[3].images[1]}
+        src={interview[4].images[1]}
         width={5568}
         height={3712}
-        alt={interview[3].alt}
+        alt={interview[4].alt}
       />
       <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
-          {interview[3].h2[2]}
+          {interview[4].h2[2]}
         </h2>
-        <h3 className="md:text-[20px]">{interview[3].h3[2]}</h3>
+        <h3 className="md:text-[20px]">{interview[4].h3[2]}</h3>
       </div>
       <div className="px-12 space-y-10 my-[60px] ">
-        <p>{interview[3].p_4[0]}</p>
-        <p>{interview[3].p_4[1]}</p>
-        <p>{interview[3].p_4[2]}</p>
-        <p>{interview[3].p_4[3]}</p>
+        <p>{interview[4].p_4[0]}</p>
+        <p>{interview[4].p_4[1]}</p>
+        <p>{interview[4].p_4[2]}</p>
+        <p>{interview[4].p_4[3]}</p>
       </div>
       <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
-          {interview[3].h2[3]}
+          {interview[4].h2[3]}
         </h2>
-        <h3 className="md:text-[20px]">{interview[3].h3[3]}</h3>
+        <h3 className="md:text-[20px]">{interview[4].h3[3]}</h3>
       </div>
       <div className="px-12 space-y-10 my-[60px] ">
-        <p>{interview[3].p_5[0]}</p>
-        <p>{interview[3].p_5[1]}</p>
+        <p>{interview[4].p_5[0]}</p>
+        <p>{interview[4].p_5[1]}</p>
       </div>
       <h1 className="text-center text-[30px] my-[60px] font-bold">
-        {interview[3].footer_h1}
+        {interview[4].footer_h1}
       </h1>
       <Splide
+        className=""
         options={{
           rewind: true,
         }}
@@ -180,30 +181,28 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview/5"
+            href="/interview/4"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
                 className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
-                src={enp[1].images[4]}
-                alt={enp[1].names[4]}
+                src={enp[1].images[3]}
+                alt={enp[1].names[3]}
                 width="500"
                 height="667"
               />
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
-                {enp[1].names[4]}
+                {enp[1].names[3]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
-                {enp[1].p[15]}
+                {enp[1].p[12]}
                 <br />
-                {enp[1].p[16]}
+                {enp[1].p[13]}
                 <br />
-                {enp[1].p[17]}
-                <br />
-                {enp[1].p[18]}
+                {enp[1].p[14]}
               </h3>
             </div>
           </Link>
@@ -237,6 +236,15 @@ export default function Interview(props) {
           </Link>
         </SplideSlide>
       </Splide>
+      <Link href="/job/1">
+        <Image
+          className="block m-auto md:max-w-[50%] my-[60px] md:my-[120px]"
+          src={TOP[2].job1}
+          width={1170}
+          height={606}
+          alt={TOP[2].alt[3]}
+        />
+      </Link>
       <Footer />
     </>
   );

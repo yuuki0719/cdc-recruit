@@ -23,22 +23,22 @@ export default function Home(props) {
             alt={TOP[1].alt}
             className=" w-[100%] h-auto "
           />
-          <div className=" skew-y-[-6deg] origin-top-left absolute w-[100%]  translate-y-[-100%]">
-            <p className="  py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] animate-slide-in-blurred-left">
+          <div className="skew-y-[-6deg] origin-top-left absolute w-[100%]  translate-y-[-100%]">
+            <p className="py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] animate-slide-in-blurred-left">
               貫き続ける覚悟はあるか
             </p>
           </div>
         </div>
-        <p className=" mx-[10%] mt-[60px]  mb-[60px] text-base font-medium">
+        <p className=" mx-[10%] mt-[60px]  mb-[60px] text-base font-medium lg:text-xl">
           {TOP[1].P}
         </p>
       </div>
       <article>
-        <h1 className="text-[30px] text-center font-bold mb-[30px] md:mb-[60px] md:text-[34px] ">
+        <h1 className="text-[30px] text-center font-bold mb-[30px] md:mb-[60px] md:text-[34px] lg:my-[120px] lg:text-[40px]">
           {TOP[2].h1}
         </h1>
-        <div class="flex flex-wrap">
-          <Link class="w-full md:w-1/2" href="/job/1">
+        <div className="flex flex-wrap">
+          <Link className="w-full md:w-1/2" href="/job/1">
             <Image
               src={TOP[2].job1}
               width={1170}
@@ -46,7 +46,7 @@ export default function Home(props) {
               alt={TOP[2].alt[0]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/2">
+          <Link className="w-full md:w-1/2" href="/job/2">
             <Image
               src={TOP[2].job2}
               width={1170}
@@ -54,7 +54,7 @@ export default function Home(props) {
               alt={TOP[2].alt[1]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/3">
+          <Link className="w-full md:w-1/2" href="/job/3">
             <Image
               src={TOP[2].job3}
               width={1170}
@@ -62,7 +62,7 @@ export default function Home(props) {
               alt={TOP[2].alt[2]}
             />
           </Link>
-          <Link class="w-full md:w-1/2" href="/job/4">
+          <Link className="w-full md:w-1/2" href="/job/4">
             <Image
               src={TOP[2].job4}
               width={1170}
@@ -73,7 +73,7 @@ export default function Home(props) {
         </div>
       </article>
       <section>
-        <h1 className="text-[30px] text-center font-bold mt-[60px] mb-[30px] md:mb-[60px] mb:text-[34px]">
+        <h1 className="text-[30px] text-center font-bold mt-[60px] mb-[30px] md:mb-[60px] mb:text-[34px] lg:my-[120px] lg:text-[40px]">
           {TOP[3].h1}
         </h1>
         <Image
@@ -83,7 +83,7 @@ export default function Home(props) {
           alt={TOP[3].alt}
         />
         <section>
-          <h2 className="text-[20px] text-center text-black font-bold md:text-[24px] ">
+          <h2 className="text-[20px] text-center text-black font-bold md:text-[24px] lg:text-[30px]">
             {TOP[3].h2}
           </h2>
           <Splide
@@ -186,7 +186,7 @@ export default function Home(props) {
             <SplideSlide>
               <Link
                 href="/interview/4"
-                className="flex  items-center  py-[30px] justify-center"
+                className="flex items-center  py-[30px] justify-center"
               >
                 <div className="ml-[21px] mr-[25px] max-w-[50%]">
                   <Image
@@ -271,7 +271,7 @@ export default function Home(props) {
             </SplideSlide>
           </Splide>
           <Link
-            className="flex justify-end mr-[5%] items-center my-[30px]"
+            className="flex justify-end mr-[5%] items-center my-[30px] lg:my-[60px]"
             href="/employee"
           >
             <Image
@@ -281,7 +281,7 @@ export default function Home(props) {
               height={35}
               alt="ボタン"
             />
-            <p className="text-base font-bold">{TOP[3].button_p}</p>
+            <p className="text-base font-bold lg:text-[20px] ">{TOP[3].button_p}</p>
           </Link>
         </section>
         <Image
@@ -291,19 +291,19 @@ export default function Home(props) {
           alt={TOP[4].alt}
         />
         <section>
-          <h2 className="text-[20px] mb-[60px] text-center text-black font-bold  md:text-[24px]">
+          <h2 className="text-[20px] lg:text-[30px] mb-[60px] text-center text-black font-bold  md:text-[24px]">
             {TOP[4].h2}
           </h2>
-          <h3 className="text-[18px] text-center text-black font-medium md:text-[20px]">
+          <h3 className="text-[18px] lg:text-[24px] text-center text-black  md:text-[20px] font-[600]">
             {TOP[4].h3_1}
           </h3>
-          <p className="text-[14px] mx-[10%] text-center text-black font-normal  my-[30px] md:text-[16px] ">
+          <p className="text-[14px] ] mx-[10%] text-center text-black font-normal  my-[30px] md:text-[16px] lg:text-xl lg:my-[60px]">
             {TOP[4].p_1}
           </p>
-          <h3 className="text-[18px] text-center text-black font-medium md:text-[20px]">
+          <h3 className="text-[18px] lg:text-[24px] text-center text-black md:text-[20px] font-[600]">
             {TOP[4].h3_2}
           </h3>
-          <p className="text-[14px]  text-center text-black font-normal mx-[28px] my-[30px] md:text-[16px] ">
+          <p className="text-[14px]  text-center text-black font-normal mx-[28px] my-[30px] md:text-[16px] lg:text-xl lg:mt-[60px] lg:mb-[120px]">
             {TOP[4].p_2}
           </p>
         </section>

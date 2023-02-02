@@ -23,7 +23,7 @@ export default function Home(props) {
             alt={TOP[1].alt}
             className=" w-[100%] h-auto "
           />
-          <div className="skew-y-[-6deg] origin-top-left absolute w-[100%]  translate-y-[-100%]">
+          <div className="skew-y-[-6deg] origin-top-left absolute w-[100%] translate-y-[-100%]  md:translate-y-[-150%]">
             <p className="py-[20px] md:py-[40px] lg:py-[60px] text-center text-[28px] md:text-[45px] lg:text-[55px] font-bold bg-[#00A0E8] animate-slide-in-blurred-left">
               貫き続ける覚悟はあるか
             </p>
@@ -76,7 +76,7 @@ export default function Home(props) {
         <h1 className="text-[30px] text-center font-bold mt-[60px] mb-[30px] md:mb-[60px] mb:text-[34px] lg:my-[120px] lg:text-[40px]">
           {TOP[3].h1}
         </h1>
-        <Image src={TOP[3].image} width={2000} height={1333} alt={TOP[3].alt} />
+        <Image src={TOP[3].image} width={1920} height={1080} alt={TOP[3].alt} />
         <section>
           <h2 className="text-[20px] text-center text-black font-bold md:text-[24px] lg:text-[30px]">
             {TOP[3].h2}
@@ -281,7 +281,7 @@ export default function Home(props) {
             </p>
           </Link>
         </section>
-        <Image src={TOP[4].image} width={2000} height={1333} alt={TOP[4].alt} />
+        <Image src={TOP[4].image} width={1920} height={1080} alt={TOP[4].alt} />
         <section>
           <h2 className="text-[20px] lg:text-[30px] mb-[60px] text-center text-black font-bold  md:text-[24px]">
             {TOP[4].h2}

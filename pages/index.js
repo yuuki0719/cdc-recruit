@@ -12,14 +12,14 @@ export default function Home(props) {
   const enp = props.enp;
   return (
     <>
-        <title>TOP|CDC新卒採用</title>
+      <title>TOP|CDC新卒採用</title>
       <Header />
       <div>
         <div className="w-[100%] h-auto relative ">
           <Image
             src={TOP[1].mein}
-            width={2000}
-            height={1333}
+            width={1920}
+            height={1080}
             alt={TOP[1].alt}
             className=" w-[100%] h-auto "
           />
@@ -76,12 +76,7 @@ export default function Home(props) {
         <h1 className="text-[30px] text-center font-bold mt-[60px] mb-[30px] md:mb-[60px] mb:text-[34px] lg:my-[120px] lg:text-[40px]">
           {TOP[3].h1}
         </h1>
-        <Image
-          src={TOP[3].image}
-          width={2000}
-          height={1333}
-          alt={TOP[3].alt}
-        />
+        <Image src={TOP[3].image} width={2000} height={1333} alt={TOP[3].alt} />
         <section>
           <h2 className="text-[20px] text-center text-black font-bold md:text-[24px] lg:text-[30px]">
             {TOP[3].h2}
@@ -281,15 +276,12 @@ export default function Home(props) {
               height={35}
               alt="ボタン"
             />
-            <p className="text-base font-bold lg:text-[20px] ">{TOP[3].button_p}</p>
+            <p className="text-base font-bold lg:text-[20px] ">
+              {TOP[3].button_p}
+            </p>
           </Link>
         </section>
-        <Image
-          src={TOP[4].image}
-          width={2000}
-          height={1333}
-          alt={TOP[4].alt}
-        />
+        <Image src={TOP[4].image} width={2000} height={1333} alt={TOP[4].alt} />
         <section>
           <h2 className="text-[20px] lg:text-[30px] mb-[60px] text-center text-black font-bold  md:text-[24px]">
             {TOP[4].h2}

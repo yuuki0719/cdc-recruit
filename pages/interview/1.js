@@ -31,7 +31,9 @@ export default function Interview(props) {
         height={3712}
         alt={interview[2].alt}
       />
-      <div className="mx-[25px] mb-[39px]">
+      <div className="lg:flex lg:my-[120px]">
+        <div className="lg:w-1/2">
+          <div className="mx-[25px] mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[2].h2[0]}
         </h2>
@@ -42,7 +44,9 @@ export default function Interview(props) {
         <p>{interview[2].p_2[1]}</p>
         <p>{interview[2].p_2[2]}</p>
       </div>
-      <div className="mx-[25px] mb-[39px] ">
+        </div>
+        <div className="lg:w-1/2">
+         <div className="mx-[25px] mb-[39px] ">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[2].h2[1]}
         </h2>
@@ -52,14 +56,20 @@ export default function Interview(props) {
         <p className="mt-[30px]">{interview[2].p_3[0]}</p>
         <p>{interview[2].p_3[1]}</p>
         <p>{interview[2].p_3[2]}</p>
+      </div> 
+        </div>
+      
       </div>
+      
       <Image
         src={interview[2].images[1]}
         width={5568}
         height={3712}
         alt={interview[2].alt}
       />
-      <div className="mx-[25px]  mb-[39px]">
+      <div className="lg:flex lg:my-[120px]">
+      <div className="lg:w-1/2">
+        <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[2].h2[2]}
         </h2>
@@ -70,6 +80,8 @@ export default function Interview(props) {
         <p>{interview[2].p_4[1]}</p>
         <p>{interview[2].p_4[2]}</p>
       </div>
+      </div>
+      <div className="lg:w-1/2">
       <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[2].h2[3]}
@@ -81,7 +93,10 @@ export default function Interview(props) {
         <p>{interview[2].p_5[1]}</p>
         <p>{interview[2].p_5[2]}</p>
       </div>
-      <h1 className="text-center text-[30px] my-[60px] font-bold">
+      </div>
+      </div>
+      
+      <h1 className="text-center text-[30px] my-[60px] font-bold lg:text-[40px]">
         {interview[2].footer_h1}
       </h1>
       <Splide

@@ -6,7 +6,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif; 
     }
 p{
-    @apply text-base md:text-base leading-5 text-[#333333] font-medium;
+    @apply text-base md:text-base leading-5 text-[#333333] font-medium lg:text-xl;
 }
 h2{
     @apply text-xl font-bold text-[#00A0E8] mb-[30px] mt-[60px]

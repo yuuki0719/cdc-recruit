@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       <Link
         href=""
-        className="bg-[#00A0E8] text-[65px] my-[60px] text-white text-center px-[60px] py-[50px] block mx-[5%] md:mx-[20%] md:my[120px] font-bold"
+        className="bg-[#00A0E8] text-[65px] my-[60px] text-white text-center px-[40px] py-[30px] block mx-[5%] md:mx-[20%] md:my[120px] font-bold"
       >
         Entry
       </Link>

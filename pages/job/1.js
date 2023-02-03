@@ -29,7 +29,8 @@ export default function Interview(props) {
           </h1>
           <p className="text-base text-center mx-[10%]">{job[0].p[0]}</p>
         </div>
-        <div>
+        <div className="md:flex">
+          <div className="md:w-1/2">
           <h1 className="text-[30px]  mt-[60px] mb-[30px] md:mb-[60px] text-center font-bold">
             {job[0].h1[1]}
           </h1>
@@ -40,7 +41,8 @@ export default function Interview(props) {
           <h2 className="text-center text-[20px] mx-5">{job[0].h2[2]}</h2>
           <p className="text-base text-center mx-[10%]">{job[0].p[3]}</p>
         </div>
-        <div>
+        <div className="md:w-1/2">
+          <div>
           <h1 className="text-[30px] text-center mt-[60px] mb-[30px]  md:mb-[60px] font-bold">
             {job[0].h1[2]}
           </h1>
@@ -56,7 +58,10 @@ export default function Interview(props) {
             {job[0].p[5]}
           </p>
         </div>
-        <div className="flex justify-center md:mx-[20%] lg:mx-[30%] ">
+        </div>
+        
+        </div>
+        <div className="flex justify-center md:mx-[20%] lg:mx-[30%] md:my-[120px]">
           <Splide
             options={{
               rewind: true,

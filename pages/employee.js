@@ -17,10 +17,10 @@ export default function Employee(props) {
         <Slider />
       </div>
       <div>
-        <h1 className=" text-center text-[30px] md:text-[32px] font-bold my-[60px]  lg:my-[120px] lg:text-[40px]">
+        <h1 className=" text-center text-[30px] md:text-[32px] font-bold my-[60px]  lg:mt-[120px] lg:text-[40px]">
           {enp[0].h1}
         </h1>
-        <p className=" text-base mx-[10%]">{enp[0].p}</p>
+        <p className=" text-base mx-[10%] text-center md:text-[20px]">{enp[0].p}</p>
       </div>
       <div>
         <h1 className=" text-center text-[30px] md:text-[32px] font-bold mt-[60px] mb-0   lg:text-[40px]">
@@ -34,7 +34,7 @@ export default function Employee(props) {
       <ul>
         <li className="my-[60px] lg:ml-[5%]">
           <Link href="/interview/1" className="flex  items-center ">
-            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2">
+            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2 lg:ml-[10%]">
               <Image
                 src={enp[1].images[0]}
                 alt={enp[1].names[0]}
@@ -42,7 +42,7 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div className="items-center  lg:ml-[100px] w-1/2">
+            <div className="items-center  lg:ml-[20%] w-1/2">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[0]}
               </h2>
@@ -70,7 +70,7 @@ export default function Employee(props) {
             className="flex items-center justify-between"
             href="/interview/2"
           >
-            <div className="ml-[21px] md:ml-[50px] mr-[25px] items-center w-1/2">
+            <div className="ml-[21px] md:ml-[50px] mr-[25px] items-center w-1/2 lg:mr-[20%] lg:ml-[10%]">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[1]}
               </h2>
@@ -101,7 +101,7 @@ export default function Employee(props) {
 
         <li className="mb-[60px] lg:ml-[5%]">
           <Link className="flex items-center" href="/interview/3">
-            <div className="ml-[21px]  mr-[25px] max-w-[50%] w-1/2">
+            <div className="ml-[21px]  mr-[25px] max-w-[50%] w-1/2 lg:ml-[10%]">
               <Image
                 src={enp[1].images[2]}
                 alt={enp[1].names[2]}
@@ -109,7 +109,7 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div className="items-center lg:ml-[100px] w-1/2">
+            <div className="items-center lg:ml-[20%] w-1/2">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[2]}
               </h2>
@@ -135,7 +135,7 @@ export default function Employee(props) {
             className="flex items-center justify-between"
             href="/interview/4"
           >
-            <div className="ml-[21px] mr-[25px] items-center w-1/2">
+            <div className="ml-[21px] mr-[25px] items-center w-1/2 lg:mr-[20%] lg:ml-[10%]">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[3]}
               </h2>
@@ -166,7 +166,7 @@ export default function Employee(props) {
 
         <li className="mb-[60px] lg:ml-[5%]">
           <Link className="flex items-center" href="/interview/5">
-            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2">
+            <div className="ml-[21px] mr-[25px] max-w-[50%] w-1/2 lg:ml-[10%]">
               <Image
                 src={enp[1].images[4]}
                 alt={enp[1].names[4]}
@@ -174,7 +174,7 @@ export default function Employee(props) {
                 height="667"
               />
             </div>
-            <div className="items-center lg:ml-[100px] w-1/2">
+            <div className="items-center lg:ml-[20%] w-1/2">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl">
                 {enp[1].names[4]}
               </h2>
@@ -202,7 +202,7 @@ export default function Employee(props) {
             className="flex items-center justify-between"
             href="/interview/6"
           >
-            <div className="ml-[21px] mr-[25px] items-center w-1/2">
+            <div className="ml-[21px] mr-[25px] items-center w-1/2 lg:mr-[20%] lg:ml-[10%]">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-3xl mt-0 md:text-4xl lg:text-5xl ">
                 {enp[1].names[5]}
               </h2>

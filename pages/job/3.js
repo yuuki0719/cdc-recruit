@@ -30,30 +30,33 @@ export default function Interview(props) {
           </h1>
           <p className="text-base text-center mx-[10%]">{job[2].p[0]}</p>
         </div>
-        <div>
-          <h2 className="text-[30px] text-[#00A0E8] mt-[60px] mb-[30px] md:mb-[60px] text-center font-bold">
+        <div className="md:flex">
+          <div className="md:w-1/2">
+          <h1 className="text-[30px]  mt-[60px] mb-[30px] md:mb-[60px] text-center font-bold">
             {job[2].h2[0]}
-          </h2>
+          </h1>
           <p className="text-base text-center mx-[10%]">{job[2].p[1]}</p>
         </div>
-        <div>
-          <h2 className="text-[30px] text-center mt-[60px] mb-[30px]  md:mb-[60px] font-bold">
+        <div className="md:w-1/2">
+          <h1 className="text-[30px] text-center mt-[60px] mb-[30px]  md:mb-[60px] font-bold">
             {job[2].h2[1]}
-          </h2>
+          </h1>
           <p className="text-base text-center mx-[10%] mb-[60px]">
             {job[2].p[2]}
           </p>
         </div>
-        <div>
-          <h2 className="text-[30px] text-center mt-[60px] mb-[30px]  md:mb-[60px] font-bold">
+        <div className="md:w-1/2">
+          <h1 className="text-[30px] text-center mt-[60px] mb-[30px]  md:mb-[60px] font-bold">
             {job[2].h2[2]}
-          </h2>
+          </h1>
           <p className="text-base text-center mx-[10%] mb-[60px]">
             {job[2].p[3]}
           </p>
         </div>
+        </div>
+        
 
-        <div className="flex justify-center md:mx-[20%] lg:mx-[30%]">
+        <div className="flex justify-center md:mx-[20%] lg:mx-[30%] md:my-[120px]">
           <Splide
             options={{
               rewind: true,

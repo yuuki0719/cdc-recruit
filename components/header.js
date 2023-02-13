@@ -71,7 +71,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/"
-                    className="bg-[#00A0E8] text-white rounded-[100vh] px-[50px] py-[10px] font-bold"
+                    className="bg-[#00A0E8] text-white rounded-[100vh] px-[50px] py-[10px] font-bold "
                   >
                     Entry
                   </Link>

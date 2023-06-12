@@ -17,12 +17,12 @@ export default function Interview(props) {
       <Header />
       <Image
         src={interview[2].main}
-        width={1560}
-        height={1040}
+        width={1559}
+        height={877}
         alt={interview[2].alt}
-        className="w-[100%]"
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
       />
-      <div className="px-12 space-y-10 my-[60px] ">
+      <div className="px-12 space-y-10 my-[60px] lg:mx-[5%] ">
         <p>{interview[1].p_1}</p>
       </div>
       <Image
@@ -30,8 +30,9 @@ export default function Interview(props) {
         width={5568}
         height={3712}
         alt={interview[2].alt}
+        className=" lg:w-[90%] lg:mx-[5%]"
       />
-      <div className="lg:flex lg:my-[120px]">
+      <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
         <div className="lg:w-1/2">
           <div className="mx-[25px] mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
@@ -66,8 +67,9 @@ export default function Interview(props) {
         width={5568}
         height={3712}
         alt={interview[2].alt}
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
       />
-      <div className="lg:flex lg:my-[120px]">
+      <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
       <div className="lg:w-1/2">
         <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
@@ -100,6 +102,7 @@ export default function Interview(props) {
         {interview[2].footer_h1}
       </h1>
       <Splide
+      className="lg:mx-[20%]"
         options={{
           rewind: true,
         }}

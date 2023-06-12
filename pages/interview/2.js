@@ -17,8 +17,8 @@ export default function Interview(props) {
       <Header />
       <Image
         src={interview[3].main}
-        width={1560}
-        height={1040}
+        width={1559}
+        height={877}
         alt={interview[3].alt}
         className="w-[100%]"
       />

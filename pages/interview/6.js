@@ -18,8 +18,8 @@ export default function Interview(props) {
       <Image
         className="w-[100%]"
         src={interview[0].main}
-        width={1560}
-        height={1040}
+        width={1559}
+        height={877}
         alt={interview[0].alt}
       />
       <div className="px-12 space-y-10 my-[60px] ">

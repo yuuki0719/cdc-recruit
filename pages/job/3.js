@@ -18,7 +18,7 @@ export default function Interview(props) {
       <Header />
       <div>
         <Image
-          className="w-[100%]"
+          className="w-[100%]  lg:w-[90%] lg:mx-[5%]"
           src={job[2].mein}
           width={1560}
           height={808}

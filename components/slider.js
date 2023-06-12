@@ -7,6 +7,7 @@ export default function Slider(){
   return (
     <>
       <Splide
+        className="lg:mx-[5%]"
         options={{
           autoplay: true, // 自動再生を有効
           interval: 3000,
@@ -15,7 +16,7 @@ export default function Slider(){
       >
         <SplideSlide>
         <Link href="/interview/1">
-          <Image className="slide-img block  object-cover w-[100%] " src="/image/interview_mv_f.jpg" alt="藤井 歩" width="1560" height="1040"/>
+          <Image className="slide-img block  object-cover w-[100%]  " src="/image/interview_mv_f.jpg" alt="藤井 歩" width="1559" height="877"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
@@ -30,7 +31,7 @@ export default function Slider(){
         </SplideSlide>
         <SplideSlide>
         <Link href="/interview/4">
-        <Image className="slide-img block object-cover w-[100%] " src="/image/interview_mv_o.jpg" alt="小田 真大" width="1560" height="1040"/>
+        <Image className="slide-img block object-cover w-[100%]  " src="/image/interview_mv_o.jpg" alt="小田 真大" width="1560" height="1040"/>
         </Link>
         </SplideSlide>
         <SplideSlide>
@@ -40,7 +41,7 @@ export default function Slider(){
         </SplideSlide>
         <SplideSlide>
         <Link href="/interview/6">
-        <Image className="slide-img block object-cover w-[100%] " src="/image/interview_mv_h.jpg" alt="平山 陽" width="1560" height="1040"/>
+        <Image className="slide-img block object-cover w-[100%]  " src="/image/interview_mv_h.jpg" alt="平山 陽" width="1560" height="1040"/>
         </Link>
         </SplideSlide>
       </Splide>

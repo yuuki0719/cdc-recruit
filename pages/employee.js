@@ -14,9 +14,6 @@ export default function Employee(props) {
       <title>社員紹介|CDC新卒採用</title>
       <Header />
       <div>
-        <Slider />
-      </div>
-      <div>
         <h1 className=" text-center text-[30px] md:text-[32px] font-bold my-[60px]  lg:mt-[120px] lg:text-[40px]">
           {enp[0].h1}
         </h1>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="lg:mx-[5%]">
       <Link
         href=""
         className="bg-[#00A0E8] text-[65px] my-[60px] text-white text-center px-[40px] py-[30px] block mx-[5%] md:mx-[20%] md:my[120px] font-bold"

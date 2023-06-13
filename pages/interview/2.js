@@ -20,9 +20,9 @@ export default function Interview(props) {
         width={1559}
         height={877}
         alt={interview[3].alt}
-        className="w-[100%]"
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
       />
-      <div className="px-12 space-y-10 my-[60px] ">
+      <div className="px-12 space-y-10 my-[60px] lg:mx-[5%]">
         <p>{interview[1].p_1}</p>
       </div>
       <Image
@@ -30,8 +30,11 @@ export default function Interview(props) {
         width={5568}
         height={3712}
         alt={interview[3].alt}
+        className=" lg:w-[90%] lg:mx-[5%]"
       />
-      <div className="mx-[25px] mb-[39px]">
+      <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
+        <div className="lg:w-1/2">
+          <div className="mx-[25px] mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[3].h2[0]}
         </h2>
@@ -42,6 +45,8 @@ export default function Interview(props) {
         <p>{interview[3].p_2[1]}</p>
         <p>{interview[3].p_2[2]}</p>
       </div>
+      </div>
+      <div className="lg:w-1/2">
       <div className="mx-[25px] mb-[39px] ">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[3].h2[1]}
@@ -53,12 +58,17 @@ export default function Interview(props) {
         <p>{interview[3].p_3[1]}</p>
         <p>{interview[3].p_3[2]}</p>
       </div>
+      </div>
+      </div>
       <Image
         src={interview[3].images[1]}
         width={5568}
         height={3712}
         alt={interview[3].alt}
+        className=" lg:w-[90%] lg:mx-[5%]"
       />
+      <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
+      <div className="lg:w-1/2">
       <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[3].h2[2]}
@@ -71,6 +81,8 @@ export default function Interview(props) {
         <p>{interview[3].p_4[2]}</p>
         <p>{interview[3].p_4[3]}</p>
       </div>
+      </div>
+      <div className="lg:w-1/2">
       <div className="mx-[25px]  mb-[39px]">
         <h2 className="mb-[30px] text-[20px] md:text-[30px]">
           {interview[3].h2[3]}
@@ -81,10 +93,13 @@ export default function Interview(props) {
         <p>{interview[3].p_5[0]}</p>
         <p>{interview[3].p_5[1]}</p>
       </div>
+      </div>
+      </div>
       <h1 className="text-center text-[30px] my-[60px] font-bold">
         {interview[3].footer_h1}
       </h1>
       <Splide
+      className="lg:mx-[20%]"
         options={{
           rewind: true,
         }}
@@ -127,36 +142,6 @@ export default function Interview(props) {
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
                 className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
-                src={enp[1].images[1]}
-                alt={enp[1].names[1]}
-                width="500"
-                height="667"
-              />
-            </div>
-            <div className="items-center lg:ml-9">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
-                {enp[1].names[1]}
-              </h2>
-              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
-                {enp[1].p[4]}
-                <br />
-                {enp[1].p[5]}
-                <br />
-                {enp[1].p[6]}
-                <br />
-                {enp[1].p[7]}
-              </h3>
-            </div>
-          </Link>
-        </SplideSlide>
-        <SplideSlide>
-          <Link
-            href="/interview/3"
-            className="flex  items-center  py-[30px] justify-center"
-          >
-            <div className="ml-[21px] mr-[25px] max-w-[50%]">
-              <Image
-                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
                 src={enp[1].images[2]}
                 alt={enp[1].names[2]}
                 width="500"
@@ -175,6 +160,34 @@ export default function Interview(props) {
                 {enp[1].p[10]}
                 <br />
                 {enp[1].p[11]}
+              </h3>
+            </div>
+          </Link>
+        </SplideSlide>
+        <SplideSlide>
+          <Link
+            href="/interview/4"
+            className="flex  items-center  py-[30px] justify-center"
+          >
+            <div className="ml-[21px] mr-[25px] max-w-[50%]">
+              <Image
+                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
+                src={enp[1].images[3]}
+                alt={enp[1].names[3]}
+                width="500"
+                height="667"
+              />
+            </div>
+            <div className="items-center lg:ml-9">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+                {enp[1].names[3]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+                {enp[1].p[12]}
+                <br />
+                {enp[1].p[13]}
+                <br />
+                {enp[1].p[14]}
               </h3>
             </div>
           </Link>

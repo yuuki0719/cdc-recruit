@@ -18,24 +18,26 @@ export default function Interview(props) {
         <Header />
       </div>
       <Image
-        className="w-[100%]"
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
         src={interview[5].main}
         width={1559}
         height={877}
         alt={interview[5].alt}
       />
-      <div className="px-12 space-y-10 my-[60px] ">
+      <div className="px-12 space-y-10 my-[60px] lg:mx-[5%]">
         <p className="text-xs md:text-base leading-5">{interview[5].p_1[0]}</p>
         <p className="text-xs md:text-base leading-5">{interview[5].p_1[1]}</p>
         <p className="text-xs md:text-base leading-5">{interview[5].p_1[2]}</p>
       </div>
       <Image
-        className="w-[100%]"
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
         src={interview[5].images[0]}
         width={5568}
         height={3712}
         alt={interview[5].alt}
       />
+            <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
+        <div className="lg:w-1/2">
       <div className="px-12 space-y-10 my-[60px] ">
         <h2>{interview[5].h2[0]}</h2>
         <p className="">{interview[0].p_2[0]}</p>
@@ -47,6 +49,8 @@ export default function Interview(props) {
         <p>{interview[5].p_2[5]}</p>
         <p>{interview[5].p_2[6]}</p>
       </div>
+      </div>
+      <div className="lg:w-1/2">
       <div className="px-12 space-y-10 my-[60px] ">
         <h2>{interview[5].h2[1]}</h2>
         <p className="mt-[30px]">{interview[0].p_3[0]}</p>
@@ -55,29 +59,38 @@ export default function Interview(props) {
         <p>{interview[5].p_3[2]}</p>
         <p>{interview[5].p_3[3]}</p>
       </div>
+      </div>
+      </div>
       <Image
-        className="w-[100%]"
+        className="w-[100%] lg:w-[90%] lg:mx-[5%]"
         src={interview[5].images[1]}
         width={5568}
         height={3712}
         alt={interview[5].alt}
       />
+      <div className="lg:flex lg:my-[120px] lg:mx-[5%]">
+      <div className="lg:w-1/2">
       <div className="px-12 space-y-10 my-[60px] ">
         <h2>{interview[5].h2[2]}</h2>
         <p>{interview[5].p_4[0]}</p>
         <p>{interview[5].p_4[1]}</p>
         <p>{interview[5].p_4[2]}</p>
       </div>
+      </div>
+      <div className="lg:w-1/2">
       <div className="px-12 space-y-10 my-[60px] ">
         <h2>{interview[5].h2[3]}</h2>
         <p>{interview[5].p_5[0]}</p>
         <p>{interview[5].p_5[1]}</p>
         <p>{interview[5].p_5[2]}</p>
       </div>
+      </div>
+      </div>
       <h1 className="text-[30px] font-bold text-center my-[60px]">
         {interview[0].footer_h1}
       </h1>
       <Splide
+      className="lg:mx-[20%]"
         options={{
           rewind: true,
         }}
@@ -202,30 +215,28 @@ export default function Interview(props) {
         </SplideSlide>
         <SplideSlide>
           <Link
-            href="/interview/5"
+            href="/interview/6"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
               <Image
                 className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
-                src={enp[1].images[4]}
-                alt={enp[1].names[4]}
+                src={enp[1].images[5]}
+                alt={enp[1].names[5]}
                 width="500"
                 height="667"
               />
             </div>
             <div className="items-center lg:ml-9">
               <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
-                {enp[1].names[4]}
+                {enp[1].names[5]}
               </h2>
               <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
-                {enp[1].p[15]}
+                {enp[1].p[19]}
                 <br />
-                {enp[1].p[16]}
+                {enp[1].p[20]}
                 <br />
-                {enp[1].p[17]}
-                <br />
-                {enp[1].p[18]}
+                {enp[1].p[21]}
               </h3>
             </div>
           </Link>

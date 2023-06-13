@@ -109,37 +109,7 @@ export default function Interview(props) {
       >
         <SplideSlide>
           <Link
-            href="/interview/1"
-            className="flex  items-center  py-[30px] justify-center"
-          >
-            <div className="ml-[21px] mr-[25px] max-w-[50%]">
-              <Image
-                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
-                src={enp[1].images[0]}
-                alt={enp[1].names[0]}
-                width="500"
-                height="667"
-              />
-            </div>
-            <div className="items-center lg:ml-9">
-              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
-                {enp[1].names[0]}
-              </h2>
-              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
-                {enp[1].p[0]}
-                <br />
-                {enp[1].p[1]}
-                <br />
-                {enp[1].p[2]}
-                <br />
-                {enp[1].p[3]}
-              </h3>
-            </div>
-          </Link>
-        </SplideSlide>
-        <SplideSlide>
-          <Link
-            href="/interview/3"
+            href="/interview/2"
             className="flex  items-center  py-[30px] justify-center"
           >
             <div className="ml-[21px] mr-[25px] max-w-[50%]">
@@ -163,6 +133,36 @@ export default function Interview(props) {
                 {enp[1].p[6]}
                 <br />
                 {enp[1].p[7]}
+              </h3>
+            </div>
+          </Link>
+        </SplideSlide>
+        <SplideSlide>
+          <Link
+            href="/interview/3"
+            className="flex  items-center  py-[30px] justify-center"
+          >
+            <div className="ml-[21px] mr-[25px] max-w-[50%]">
+              <Image
+                className="w-auto max-h-[155px] md:max-h-[195px] lg:max-h-[220px]"
+                src={enp[1].images[2]}
+                alt={enp[1].names[2]}
+                width="500"
+                height="667"
+              />
+            </div>
+            <div className="items-center lg:ml-9">
+              <h2 className="text-[#00A0E8] mb-[1.6rem] text-2xl mt-0 md:text-4xl lg:text-5xl">
+                {enp[1].names[2]}
+              </h2>
+              <h3 className="text-base font-normal min-w-[176px] md:text-2xl lg:text-3xl mr-3">
+                {enp[1].p[8]}
+                <br />
+                {enp[1].p[9]}
+                <br />
+                {enp[1].p[10]}
+                <br />
+                {enp[1].p[11]}
               </h3>
             </div>
           </Link>

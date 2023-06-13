@@ -26,9 +26,6 @@
 　VScode　illustrator　Photoshop　XD
  
  
-## 学んだこと
-
-
 
 ## URL
 https://cdc-eight.vercel.app/
